@@ -6,7 +6,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #a9b9c9;
+    background-color: #c9c5a9;
 }
 
 .container{
@@ -14,12 +14,23 @@ body{
 }
 
 span{
-    color: red;
+    color: green;
 }
 
 button{
-    background-color: hotpink;
+    background-color: rgb(183, 255, 105);
     color: whitesmoke;
+    padding: 0.5rem 1rem;
+    border: 2px solid honeydew;
+    box-shadow: 0 0 12px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.down-button{
+    background-color: rgb(106, 117, 93);
+    color: rgb(87, 10, 10);
     padding: 0.5rem 1rem;
     border: 2px solid honeydew;
     box-shadow: 0 0 12px 8px rgba(0, 0, 0, 0.3);
@@ -31,4 +42,8 @@ button{
 button:hover{
     background-color: #6c717d;
     color: #f0f0f0;
+}
+
+.down{
+    margin-top: 100px;
 }
