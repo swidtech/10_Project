@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn</title>
+
+    <script language="javascript" type="text/javascript">
+        // div 1
+        function knowAll() {
+            document.write("Currently we have enough products available");
+        }
+
+        // div 2
+        function knowWell (name, age) {
+            document.write(name + " is " + age + " years old.");
+        }
+
+    </script>
+</head>
+<body>
+
+    <div class="1">
+        <h1> 
+            You should click here to know what we have now
+        </h1>
+        <input type="button" onclick="sayHello()" value="know all">
+    </div>
+
+    <!-- Div 2 -->
+
+    <div class="2">
+        <h2>Click the following button to call the action</h2>
+        <form>
+            <input type="t1" placeholder="Please, put your name" /> <br>
+            <input type="t2" placeholder="Please, include your age" /> <br>
+            <input type="button" onclick="sayHello(t1.value, t1.value)" value="Know little about yourself">
+        </form>
+
+    </div>
+
+
+</body>
+</html>
